@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1404441454190622}
+  m_IsPrefabAsset: 1
+--- !u!1 &1404441454190622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215662089982072}
+  - component: {fileID: 114294028266595368}
+  - component: {fileID: 114891288590520460}
+  - component: {fileID: 114859517775495048}
+  - component: {fileID: 114722765114980054}
+  - component: {fileID: 114597364096156008}
+  - component: {fileID: 114722806377674884}
+  - component: {fileID: 114649565232805546}
+  - component: {fileID: 114493212505436732}
+  - component: {fileID: 114700236937738382}
+  m_Layer: 0
+  m_Name: '[nRed] FirebaseUtility'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215662089982072
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114294028266595368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726686d047071e44089ee656751de546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114493212505436732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6eda630d4132ae4da5a6f9768fb738c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topicOnDebugBuild: []
+  topicOnReleaseBuild: []
+  topicOnProductBuild: []
+--- !u!114 &114597364096156008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd195fe05a9932142a19b968cd6a0ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityEditor:
+    editorDbUrl: 
+    editorP12FileName: 
+    editorServiceAccountEmail: 
+    editorP12Password: 
+--- !u!114 &114649565232805546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4748f637bb21d343af8546d28a694ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaults: []
+  isDeveloperMode: 1
+--- !u!114 &114700236937738382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80312385a6a294d8288192906aeaf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114722765114980054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e56b1c3adef0e346b72afe3069e8fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityEditor:
+    debugEmail: 
+    debugPass: 
+--- !u!114 &114722806377674884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35284cc05d073ce4eb0a5ada0e3fc8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114859517775495048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9d395874be42949b9a6259b5ef786f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114891288590520460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404441454190622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf67f0bc330395d44b037388bfa229d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ios:
+    appId: 
+    bannerId: []
+    intersticialId: []
+    rewardId: []
+    maxAdRating: 0
+  android:
+    appId: 
+    bannerId: []
+    intersticialId: []
+    rewardId: []
+    maxAdRating: 0
+  editor:
+    appId: 
+    bannerId: []
+    intersticialId: []
+    rewardId: []
+    maxAdRating: 0
+  testDeviceId: []
